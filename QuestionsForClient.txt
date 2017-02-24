@@ -1,0 +1,34 @@
+CIS 640 ZA - Questions for Unit Testing With Examples
+
+add_person_property
+1.	Adding name property with non-string value should raise TypeError
+2.	Adding a name which already exists in the network should raise a ValueError
+3.	Adding a property which already exists should overwrite the previous value
+4.	Adding a property to a person who does not exist should raise a RuntimeError
+
+add_relation
+1.	Adding relation between non-existent and existing person should raise RuntimeError
+2.	Adding relation between existing and non-existing person should raise RuntimeError
+3.	Adding relation between two non-existent people should raise RuntimeError
+4.	Adding a relation between two people with an existing relation should raise a ValueError
+5.	Adding a relation between a person and himself should not fail
+
+add_relation_property
+1.	Assigning a non-Boolean value to the friend property should raise a TypeError
+2.	Adding a relation property to a non-existent relation should raise a RuntimeError
+3.	Adding a relation property if person one does not exist should raise a RuntimeError
+4.	Adding a relation property if person two does not exist should raise a RuntimeError
+5.	Adding a relation property that already exists should overwrite the previous value
+
+get_person
+1.	Calling this function with a non-string name should raise a TypeError
+2.	Calling this function with a name that does not exist should raise a RuntimeError
+3.	The person that is requested should be the person that is returned
+
+friends_of_friends
+1.	Calling this function with a name that does not exist should raise a RuntimeError
+2.	Calling this function with a non-string name should raise a TypeError
+3.	The friends returned should be exactly the friends requested and no more, no less
+4.	The object returned should be of type list
+
+***Note: do not forget to check for the cases when all parameters are valid as well.

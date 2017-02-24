@@ -1,1 +1,18 @@
-{}
+{
+  "test_impl.py::TestAddPersonProperty::()::test_fails_when_adding_property_to_non_existing_person": true,
+  "test_impl.py::TestAddPersonProperty::()::test_fails_when_name_property_already_exists": true,
+  "test_impl.py::TestAddPersonProperty::()::test_name_property_fails_with_non_string_value": true,
+  "test_impl.py::TestAddRelation::()::test_relation_fails_between_network_and_non_network_persons": true,
+  "test_impl.py::TestAddRelation::()::test_relation_fails_between_non_network_and_network_persons": true,
+  "test_impl.py::TestAddRelation::()::test_relation_fails_between_two_non_network_persons": true,
+  "test_impl.py::TestAddRelationProperty::()::test_adding_relation_property_overwrites_previous_value": true,
+  "test_impl.py::TestAddRelationProperty::()::test_fails_when_adding_non_boolean_to_friend_property": true,
+  "test_impl.py::TestAddRelationProperty::()::test_fails_when_adding_property_to_non_existing_relation": true,
+  "test_impl.py::TestAddRelationProperty::()::test_fails_when_person1_does_not_exist": true,
+  "test_impl.py::TestFriendsOfFriends::()::test_fails_for_non_string_names": true,
+  "test_impl.py::TestFriendsOfFriends::()::test_fails_if_name_does_not_exist": true,
+  "test_impl.py::TestFriendsOfFriends::()::test_friends_of_friends_are_returned": true,
+  "test_impl.py::TestFriendsOfFriends::()::test_object_returned_is_a_list": true,
+  "test_impl.py::TestGetPerson::()::test_fails_for_non_existent_name": true,
+  "test_impl.py::TestGetPerson::()::test_fails_for_non_string_names": true
+}
